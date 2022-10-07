@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+  <main class="pageWrapper">
+    <div class="headWrapper">
+      <div class="profile">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson">
+        <div class="profileName">
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div class="menuList">
+        <p class="daily">Daily</p>
+        <p class="weekly">Weekly</p>
+        <p class="monthly">Monthly</p>
+      </div>
+    </div>
+    <div class="items">
+      <section class="sec work">
+        <div class="workHours cards">
+          <div class="header">
+            <h2>Work</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">32hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">36hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+      <section class="sec play">
+        <div class="playHours cards">
+          <div class="header">
+            <h2>Play</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">10hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">8hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+      <section class="sec study">
+        <div class="studyHours cards">
+          <div class="header">
+            <h2>Study</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">4hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">7hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+      <section class="sec exercise">
+        <div class="exerciseHours cards">
+          <div class="header">
+            <h2>Exercise</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">4hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">5hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+      <section class="sec social">
+        <div class="socialHours cards">
+          <div class="header">
+            <h2>Social</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">5hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">10hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+      <section class="sec self">
+        <div class="selfcareHours cards">
+          <div class="header">
+            <h2>Self Care</h2>
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            <p class="current">2hrs</p> <!-- weekly -->
+            <p class="previous">Last Week - <span class="previous_time">2hrs</span></p> <!-- weekly -->
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>
